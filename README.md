@@ -27,3 +27,63 @@ The need for new computing paths starts from the historical progression of gener
 - Exascale marks $$10^{18}$$ FLOPS; roadmaps project future systems targeting zetta‑scale $$10^{21}$$ FLOPS by improving energy efficiency and scaling node counts, but anticipated facility powers on the order of tens to ~100 MW imply energy remains the central constraint to reach zetta‑class performance.
 - Progress therefore hinges on compute density per watt through accelerators, memory hierarchy efficiency, interconnects, and system‑level cooling, rather than raw frequency increases, aligning the entire stack to overcome the power wall on the path to zetta‑scale computing.
 
+Patterning
+Scaling relies on lithography advances from ArF immersion to EUV and now High‑NA EUV to keep critical dimensions shrinking as traditional Dennard gains faded, enabling tighter device/features for new architectures.
+
+Patterning progress is the enabler for subsequent device and interconnect innovations; without CD control from EUV/High‑NA, nodes like GAAFET and CFET would be impractical at useful densities.
+
+Channel materials
+Silicon remains the workhorse, but SiGe channels improve hole mobility for PMOS, while research explores Ge and 2D semiconductors such as MoS2/WSe2 to sustain electrostatics and mobility below ~3 nm gates.
+
+2D materials promise ultra‑thin channels to suppress short‑channel effects and enable novel stacking like 2D‑CFETs, though manufacturability (contacts, transfer, variability) is the key barrier to adoption.
+
+Gate stack material
+The shift to high‑k/metal‑gate (HKMG) replaced SiO2/poly to reduce gate leakage and maintain capacitance at small EOT, forming the base for FinFETs and nanosheets at advanced nodes.
+
+Emerging stacks include negative‑capacitance FETs using ferroelectrics to beat the 60 mV/dec subthreshold slope limit, and steep‑slope devices like TFETs for ultra‑low‑power logic, primarily in research and niche paths today.
+
+Device structure
+Industry progressed from planar MOSFET to FinFET and is transitioning to gate‑all‑around nanosheet/nanowire FETs (GAAFET/NSFET) near the 3 nm era to improve electrostatics and drive current at reduced footprint.
+
+Next candidates include forksheet (dielectric wall separating n/p stacks to shrink cell height), CFET (vertical stacking of nFET over pFET for ultimate standard‑cell area scaling), and experimental vertical FETs and 3D stacked FET concepts to push density and performance per watt.
+
+Interconnect materials
+Copper interconnect scaling faces resistance and reliability limits; alternatives like cobalt and ruthenium, along with barrier/liner innovations, are being explored to lower RC delay at tight pitches.
+
+Interconnect breakthroughs are essential complements to device scaling, because wiring delay and power increasingly dominate at advanced nodes and in large SoCs.
+
+Power delivery (backside/BPR)
+Backside power delivery networks (BSPDN) move power rails to the wafer backside, often with buried power rails (BPR) and nano‑TSVs, freeing front‑side routing, cutting IR drop, and improving signal integrity and cell height.
+
+DTCO studies show BSPDN+BPR enables shorter, thicker power paths and reduced congestion, representing a major near‑term system‑level scaling vector alongside GAA/CFET adoption.
+
+DTCO (design‑technology co‑optimization)
+DTCO integrates device/process choices with standard‑cell libraries, routing, and power delivery to maximize PPA at a given node; examples include forksheet spacing rules, BSPDN‑ready cells, and interconnect stack co‑designs.
+
+As voltage scaling stalls, DTCO is critical for realizing benefits from new devices and materials in actual products, aligning architecture, layout, and process enablers.
+
+STCO (system‑technology co‑optimization)
+STCO extends beyond a single die to chiplet partitioning, heterogeneous integration, 2.5D/3D stacking, and memory/proximity co‑design to deliver system‑level perf/W gains not possible by device scaling alone.
+
+Chiplets and advanced packaging distribute functions across optimized processes, while 3D stacking shortens interconnects and boosts bandwidth, shifting the roadmap from pure transistor scaling to system scaling.
+
+3D integration highlights
+3D stacked CMOS devices and monolithic/sequential CFET approaches aim to halve logic cell area and reduce interconnect lengths, though processing complexity and thermal budgets are key challenges under active research.
+
+Backside power via schemes paired with 3D stacking further decouple power and signal networks for dense logic fabrics, pointing to combined device‑plus‑packaging scaling recipes.
+
+Steep‑slope and novel devices
+TFETs offer sub‑60 mV/dec slopes for ultra‑low‑power logic by tunneling injection, while NC‑FETs use ferroelectric polarization to amplify gate voltage; both remain pre‑commercial for mainstream logic but are active IEDM topics.
+
+Topological/phase‑change/ferroelectric devices and spintronics appear as exploratory paths for specialized compute (e.g., neuromorphic or approximate computing) rather than immediate CMOS replacements.
+
+What to put in GitHub
+Create a README sections table mirroring these headers; for each, add 2–3 bullet points with one‑line definitions, current status (production/research), and links to key references like IEDM summaries, IRDS/ITRS, and imec DTCO notes.
+
+Add a glossary.md with concise entries for GAAFET, forksheet, CFET, BSPDN, BPR, DTCO, STCO, High‑NA EUV, and 2D channels; include figures or citations as allowed and a roadmap.md that maps “now → next” transitions: FinFET → GAA → forksheet → CFET + BSPDN + 3D/chiplets.
+
+One‑paragraph summary
+The roadmap shifts from pure lithographic scaling to a co‑optimized stack: GAA/CFET devices, improved interconnects, backside power, and 2.5D/3D STCO with chiplets, using DTCO to turn materials and structures into real PPA at advanced nodes.
+
+Success hinges on integrating patterning, device physics, power delivery, and packaging—treating CMOS evolution as a system problem rather than a single‑transistor problem.
+
