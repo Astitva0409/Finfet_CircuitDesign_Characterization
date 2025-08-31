@@ -133,7 +133,7 @@ transconductance
 frequency 
 output resistance
 
-To ensure unique results we add a dummy voltage source 
+To ensure unique results we add a dummy voltage source whose value is the asii value of my name astitva=(97+115+116+105+116+118+97=764)
 ```
 Vuniq in 0 DC 0.764
 ```
