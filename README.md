@@ -6,6 +6,7 @@ This historical progression of general-purpose computing has been driven by the 
 However, as we've pushed the boundaries of silicon scaling, energy and cooling limits have emerged as the dominant bottleneck, stalling frequency improvements and single-thread performance gains. This reality has forced a fundamental architectural shift toward parallelism, multi-core processors, specialized accelerators, distributed racks, and eventually giga-exa- to zetta-scale systems. The need for these new computing paths becomes even more critical as next-generation chips tackle increasingly complex problems such as weather modeling and forecasting, health and precision medicine, virtual particle accelerators, and many other computationally intensive challenges that demand both massive computational power and energy efficiency.
 
 This transformation from room-sized vacuum tube machines to coin-sized chips, and now toward massively parallel and specialized computing architectures, illustrates how the field continues to evolve in response to both technological capabilities and physical constraints.
+
 <img width="1276" height="667" alt="Image" src="https://github.com/user-attachments/assets/30e44abe-31b8-44e0-8e86-2c6da3e6dfdb" />
 
 ## Moore’s law vs performance
@@ -26,7 +27,10 @@ This transformation from room-sized vacuum tube machines to coin-sized chips, an
 ## Toward zetta‑scale
 - For solving larger and larger problems, we will see a shift from indiviual devices to data-centre scale computing. In a data-centre, racks will be used as a socket. A rack contains many computing elements. In this scale, we use flop(floating point operations per second) to measure its performance. Currently, we have attained 8-10 Exaflop performance. The trend suggests that the flop performance doubles every 2 years. But, with increase in flops, the system demands more power.
 - Progress therefore hinges on compute density per watt through accelerators, memory hierarchy efficiency, interconnects, and system‑level cooling, rather than raw frequency increases, aligning the entire stack to overcome the power wall on the path to zetta‑scale computing.
+
 <img width="1470" height="651" alt="Image" src="https://github.com/user-attachments/assets/99124294-35ee-4079-aed2-9a00ee075ac7" />
+
+### CMOS Evolution an Next-Gen Candidates
 
 <img width="1371" height="640" alt="Image" src="https://github.com/user-attachments/assets/e30ef2b5-adaf-4afd-b905-f3bcc4ab3641" />
 
