@@ -36,26 +36,26 @@ This transformation from room-sized vacuum tube machines to coin-sized chips, an
 
 The evolution of CMOS circuits is rapidly advancing towards the 1nm technology node and beyond, representing a fundamental shift from the traditional scaling paradigm. The Moore's Law principle has been essential to the semiconductor industry, but as device dimensions continue to shrink, simple lithographic scaling alone has become increasingly challenging. To overcome these limitations, comprehensive research is being conducted across multiple technological fronts, creating an integrated approach to semiconductor advancement.
 
-##Patterning Innovations
+## Patterning Innovations
 Scaling now relies on advanced lithography techniques progressing from ArF immersion to EUV and High-NA EUV systems to maintain critical dimension control as traditional Dennard scaling gains have faded. These patterning advances enable tighter device features essential for new architectures. EUV lithography with 13.5 nm wavelength and the transition to High-NA EUV systems with numerical aperture increased from 0.33 to 0.55 are critical for achieving sub-1nm nodes. Without precise CD control from these advanced patterning techniques, revolutionary architectures like GAAFET and CFET would be impractical at commercially useful densities.
 
-##Advanced Channel Materials
+## Advanced Channel Materials
 While silicon remains the foundational material, the industry is exploring revolutionary alternatives. SiGe channels improve hole mobility for PMOS devices, while research actively investigates Germanium and 2D semiconductors such as MoS₂ and WSe₂ to sustain electrostatics and maintain mobility below 3 nm gate lengths. These 2D materials promise ultra-thin channels that can suppress short-channel effects and enable novel stacking architectures like 2D-CFETs, though manufacturability challenges including contacts, transfer processes, and variability control remain significant barriers to widespread adoption.
 
-##Gate Stack Evolution
+## Gate Stack Evolution
 The transition to high-k/metal-gate (HKMG) technology replaced traditional SiO₂/polysilicon structures to reduce gate leakage and maintain capacitance at smaller equivalent oxide thickness (EOT), forming the foundation for FinFETs and nanosheets at advanced nodes. Emerging gate stack innovations include negative-capacitance FETs using ferroelectric materials to overcome the 60 mV/decade subthreshold slope limit, and steep-slope devices like tunnel FETs (TFETs) for ultra-low-power logic applications.
 
-##Device Architecture Revolution
-Structural Evolution
+## Device Architecture Revolution
+## Structural Evolution
 The semiconductor industry has progressed from planar MOSFETs to FinFETs and is now transitioning to gate-all-around nanosheet/nanowire FETs (GAAFET/NSFET) near the 3nm era to improve electrostatic control and drive current within reduced footprints. Next-generation candidates include forksheet designs with dielectric walls separating n/p stacks to reduce cell height, complementary FETs (CFETs) featuring vertical stacking of nFET over pFET for ultimate standard-cell area scaling, and experimental vertical FETs with 3D stacked architectures like Multi-Bridge Channel FETs (MBC-FETs) and 3D Stacked FETs (3DS-FETs).
 
-##Interconnect and Power Delivery Innovation
+## Interconnect and Power Delivery Innovation
 Copper interconnect scaling faces fundamental resistance and reliability limitations, driving exploration of alternative materials like cobalt and ruthenium, along with advanced barrier/liner innovations to reduce RC delay at tight pitches. Backside power delivery networks (BSPDN) represent a paradigm shift, moving power rails to the wafer backside with buried power rails (BPR) and nano-through-silicon-vias (TSVs), freeing front-side routing while reducing IR drop and improving signal integrity.
 
-##3D Integration and Beyond
+## 3D Integration and Beyond
 The roadmap increasingly shifts from pure lithographic scaling to a comprehensively co-optimized technology stack incorporating GAA/CFET devices, improved interconnects, backside power delivery, and 2.5D/3D STCO with chiplets. Success depends on integrating patterning capabilities, device physics innovations, advanced power delivery solutions, and sophisticated packaging technologies—treating CMOS evolution as a holistic system challenge rather than isolated transistor improvements. This transformation represents CMOS 2.0, where functional units are broken down into advanced 3D designs that surpass today's chiplet-based approaches, pointing toward a future where vertical integration and atomic-scale channels enable continued performance scaling beyond traditional dimensional limits.
 
-##Fin-FETS 
+## Fin-FETS 
 FinFET (Fin Field-Effect Transistor) represents a paradigm shift from traditional planar semiconductor design, featuring a sophisticated three-dimensional structure where thin, fin-like silicon channels protrude vertically from the substrate. Unlike conventional planar transistors, the gate electrode wraps around the channel on three sides, creating superior electrostatic control that fundamentally transforms transistor performance characteristics.
 
 <img width="1373" height="681" alt="Image" src="https://github.com/user-attachments/assets/88cec553-acea-4ff5-af3e-46832f866410" />
