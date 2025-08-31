@@ -55,4 +55,10 @@ Copper interconnect scaling faces fundamental resistance and reliability limitat
 ##3D Integration and Beyond
 The roadmap increasingly shifts from pure lithographic scaling to a comprehensively co-optimized technology stack incorporating GAA/CFET devices, improved interconnects, backside power delivery, and 2.5D/3D STCO with chiplets. Success depends on integrating patterning capabilities, device physics innovations, advanced power delivery solutions, and sophisticated packaging technologies—treating CMOS evolution as a holistic system challenge rather than isolated transistor improvements. This transformation represents CMOS 2.0, where functional units are broken down into advanced 3D designs that surpass today's chiplet-based approaches, pointing toward a future where vertical integration and atomic-scale channels enable continued performance scaling beyond traditional dimensional limits.
 
+##Fin-FETS 
+FinFET (Fin Field-Effect Transistor) represents a paradigm shift from traditional planar semiconductor design, featuring a sophisticated three-dimensional structure where thin, fin-like silicon channels protrude vertically from the substrate. Unlike conventional planar transistors, the gate electrode wraps around the channel on three sides, creating superior electrostatic control that fundamentally transforms transistor performance characteristics.
+
+<img width="1373" height="681" alt="Image" src="https://github.com/user-attachments/assets/88cec553-acea-4ff5-af3e-46832f866410" />
+
+
 
