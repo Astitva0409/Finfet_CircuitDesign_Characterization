@@ -363,4 +363,20 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 .end
 
 ```
+## Voltage transfer characteristics (VTC):-Input voltage (VIN) versus Output voltage (VOUT) relationship
 
+
+drain current
+power analysis 
+propogation delay
+gain 
+noise margin 
+transconductance 
+frequency 
+output resistance
+
+| S.No | W/L (PMOS) | W/L (NMOS) | Vth (V) | Id (A) | P (W) | tpd (ps) | Av | f (Hz) |
+|------|------------|------------|---------|--------|-------|----------|----|--------|
+| 1    |            |            |         |        |       |          |    |        |
+| 2    |            |            |         |        |       |          |    |        |
+| 3    |            |            |         |        |       |          |    |        |
