@@ -121,3 +121,15 @@ Drain current (ID) versus drain-source voltage (VDS) at various gate voltages
 
 ## CMOS Inverter_vtc Characteristics
 
+In this segment, we will conduct an in-depth analysis of CMOS inverter performance through systematic characterization of its voltage transfer characteristics and associated electrical parameters. This comprehensive evaluation will provide crucial insights into the fundamental behavior and performance metrics of CMOS logic circuits.
+
+Voltage transfer characteristics (VTC):-Input voltage (VIN) versus Output voltage (VOUT) relationship
+drain current
+power analysis 
+propogation delay
+gain 
+noise margin 
+transconductance 
+frequency 
+output resistanc
+
