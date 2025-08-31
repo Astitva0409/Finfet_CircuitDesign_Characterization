@@ -23,6 +23,8 @@ This transformation from room-sized vacuum tube machines to coin-sized chips, an
 - To use the extra transistors without exceeding power, vendors increased the number of cores per chip, a trend visible as a power‑law rise in core counts while frequency stays flat; this pushes software toward parallel algorithms constrained by Amdahl’s Law.
 - Industry outlooks emphasize large‑scale parallelism, heterogeneous cores, and accelerators as the path for performance per watt, because energy—not raw transistor count—now dominates achievable compute.
 
+<img width="1310" height="638" alt="Image" src="https://github.com/user-attachments/assets/77cc1055-4413-4457-a24e-4db7e34113b8" />
+
 ## Mobile’s rise and power focus
 - The smartphone era intensified the power imperative: mobile devices lack active cooling and run from batteries, so energy efficiency and strict thermal design power budgets dictate CPU/GPU operation and aggressive power management instead of high frequency.
 - Consequently, mobile SoCs pursued many‑core/heterogeneous designs and DVFS/turbo strategies that deliver bursts within tight thermal limits, reinforcing the industry‑wide pivot from frequency to energy‑efficient parallel compute.
