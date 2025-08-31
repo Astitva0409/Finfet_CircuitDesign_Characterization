@@ -24,7 +24,7 @@ This transformation from room-sized vacuum tube machines to coin-sized chips, an
 ## Mobile’s rise and power focus
 - The smartphone era intensified the power imperative: mobile devices lack active cooling and run from batteries, so energy efficiency and strict thermal design power budgets dictate CPU/GPU operation and aggressive power management instead of high frequency.
 ## Toward zetta‑scale
-- Exascale marks $$10^{18}$$ FLOPS; roadmaps project future systems targeting zetta‑scale $$10^{21}$$ FLOPS by improving energy efficiency and scaling node counts, but anticipated facility powers on the order of tens to ~100 MW imply energy remains the central constraint to reach zetta‑class performance.
+- For solving larger and larger problems, we will see a shift from indiviual devices to data-centre scale computing. In a data-centre, racks will be used as a socket. A rack contains many computing elements. In this scale, we use flop(floating point operations per second) to measure its performance. Currently, we have attained 8-10 Exaflop performance. The trend suggests that the flop performance doubles every 2 years. But, with increase in flops, the system demands more power.
 - Progress therefore hinges on compute density per watt through accelerators, memory hierarchy efficiency, interconnects, and system‑level cooling, rather than raw frequency increases, aligning the entire stack to overcome the power wall on the path to zetta‑scale computing.
 <img width="1470" height="651" alt="Image" src="https://github.com/user-attachments/assets/99124294-35ee-4079-aed2-9a00ee075ac7" />
 
