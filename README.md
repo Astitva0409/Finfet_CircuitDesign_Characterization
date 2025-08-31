@@ -31,6 +31,7 @@ This transformation from room-sized vacuum tube machines to coin-sized chips, an
 ## Toward zetta‑scale
 - Exascale marks $$10^{18}$$ FLOPS; roadmaps project future systems targeting zetta‑scale $$10^{21}$$ FLOPS by improving energy efficiency and scaling node counts, but anticipated facility powers on the order of tens to ~100 MW imply energy remains the central constraint to reach zetta‑class performance.
 - Progress therefore hinges on compute density per watt through accelerators, memory hierarchy efficiency, interconnects, and system‑level cooling, rather than raw frequency increases, aligning the entire stack to overcome the power wall on the path to zetta‑scale computing.
+<img width="1470" height="651" alt="Image" src="https://github.com/user-attachments/assets/99124294-35ee-4079-aed2-9a00ee075ac7" />
 
 Patterning
 Scaling relies on lithography advances from ArF immersion to EUV and now High‑NA EUV to keep critical dimensions shrinking as traditional Dennard gains faded, enabling tighter device/features for new architectures.
