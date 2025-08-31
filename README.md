@@ -139,7 +139,7 @@ Vuniq in 0 DC 0.764
 ```
 The spice deck used for simulation with the dummy voltage used is 
 ```
-** sch_path: /home/maddy/asap_7nm_Xschem/inverter_vtc.sch
+** sch_path: /home/vsduser/Desktop/asap_7nm_Xschem/inverter_vtc.sch
 **.subckt inverter_vtc
 Xpfet1 nfet_out nfet_in vdd vdd asap_7nm_pfet l=7e-009 nfin=14
 Xnfet1 nfet_out nfet_in GND GND asap_7nm_nfet l=7e-009 nfin=14
