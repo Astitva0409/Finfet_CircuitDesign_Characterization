@@ -23,8 +23,6 @@ This transformation from room-sized vacuum tube machines to coin-sized chips, an
 
 ## Mobile’s rise and power focus
 - The smartphone era intensified the power imperative: mobile devices lack active cooling and run from batteries, so energy efficiency and strict thermal design power budgets dictate CPU/GPU operation and aggressive power management instead of high frequency.
-- Consequently, mobile SoCs pursued many‑core/heterogeneous designs and DVFS/turbo strategies that deliver bursts within tight thermal limits, reinforcing the industry‑wide pivot from frequency to energy‑efficient parallel compute.
-
 ## Toward zetta‑scale
 - Exascale marks $$10^{18}$$ FLOPS; roadmaps project future systems targeting zetta‑scale $$10^{21}$$ FLOPS by improving energy efficiency and scaling node counts, but anticipated facility powers on the order of tens to ~100 MW imply energy remains the central constraint to reach zetta‑class performance.
 - Progress therefore hinges on compute density per watt through accelerators, memory hierarchy efficiency, interconnects, and system‑level cooling, rather than raw frequency increases, aligning the entire stack to overcome the power wall on the path to zetta‑scale computing.
