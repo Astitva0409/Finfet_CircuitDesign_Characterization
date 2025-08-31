@@ -24,9 +24,6 @@ This transformation from room-sized vacuum tube machines to coin-sized chips, an
 ## Mobile’s rise and power focus
 - The smartphone era intensified the power imperative: mobile devices lack active cooling and run from batteries, so energy efficiency and strict thermal design power budgets dictate CPU/GPU operation and aggressive power management instead of high frequency.
 - Consequently, mobile SoCs pursued many‑core/heterogeneous designs and DVFS/turbo strategies that deliver bursts within tight thermal limits, reinforcing the industry‑wide pivot from frequency to energy‑efficient parallel compute.
-## From sockets to racks
-- As workloads outgrew single sockets, computing shifted to clusters and data centers, aggregating many nodes into racks to scale total FLOPS while distributing power and cooling across facilities rather than a single chip or box.
-- Modern supercomputers exemplify this: the Frontier system achieves about 1–1.7 exaFLOPS with on the order of 20–30 MW facility power, showing how performance growth now comes from massive parallelism across racks coupled with advanced cooling and power delivery.
 
 ## Toward zetta‑scale
 - Exascale marks $$10^{18}$$ FLOPS; roadmaps project future systems targeting zetta‑scale $$10^{21}$$ FLOPS by improving energy efficiency and scaling node counts, but anticipated facility powers on the order of tens to ~100 MW imply energy remains the central constraint to reach zetta‑class performance.
