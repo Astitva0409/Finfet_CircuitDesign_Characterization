@@ -79,7 +79,6 @@ Advantages:
 
 Improved reliability: Better control over short-channel effects
 
-## Subthreshold Performance
 FinFETs demonstrate near-ideal subthreshold swing characteristics, typically achieving values around 87 millivolts per decade, approaching the theoretical limit for MOSFET devices.
 
 Performance Benefits:
