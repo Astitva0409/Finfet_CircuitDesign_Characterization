@@ -109,7 +109,13 @@ In this segment, we will conduct a comprehensive electrical characterization of 
 Characterization Objectives :- We will systematically analyze the following critical characteristics:
 
 Transfer Characteristics (ID vs VGS)
-Drain current (ID) versus gate-source voltage (VGS) at fixed drain-source voltage
+Drain current (ID) versus gate-source voltage (VGS) 
 
 Output Characteristics (ID vs VDS)
 Drain current (ID) versus drain-source voltage (VDS) at various gate voltages
+
+## ID vs Vin
+<img width="1919" height="1133" alt="Image" src="https://github.com/user-attachments/assets/bfcdbe6a-16f0-49b9-9c1f-e444d6dc090c" />
+
+## ID vs VD
+<img width="1919" height="1132" alt="Image" src="https://github.com/user-attachments/assets/3981cad8-870d-4fea-a7a3-94fdf5d15127" />
