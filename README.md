@@ -118,3 +118,6 @@ Drain current (ID) versus drain-source voltage (VDS) at various gate voltages
 
 ## ID vs VD
 <img width="1919" height="1132" alt="Image" src="https://github.com/user-attachments/assets/3981cad8-870d-4fea-a7a3-94fdf5d15127" />
+
+## CMOS Inverter_vtc Characteristics
+
