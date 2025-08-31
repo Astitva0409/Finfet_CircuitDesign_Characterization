@@ -8,10 +8,6 @@ However, as we've pushed the boundaries of silicon scaling, energy and cooling l
 This transformation from room-sized vacuum tube machines to coin-sized chips, and now toward massively parallel and specialized computing architectures, illustrates how the field continues to evolve in response to both technological capabilities and physical constraints.
 <img width="1276" height="667" alt="Image" src="https://github.com/user-attachments/assets/30e44abe-31b8-44e0-8e86-2c6da3e6dfdb" />
 
-## Starting point
-- Early computers evolved from application‑specific machines to programmable systems, with progress largely paced by transistor integration following Moore’s Law, which doubled transistors roughly every two years and expanded what could be computed efficiently.
-- As integration rose, designers targeted ever‑bigger problems, but sustaining performance purely by clocking faster met physical limits, motivating alternative “paths” such as parallelism and specialization to keep solving growing scientific and industrial workloads.
-
 ## Moore’s law vs performance
 - Data across “40–50 Years of Microprocessor Trend Data” shows transistor counts kept rising in line with Moore’s Law even after 2005, but the curves for frequency and single‑thread performance flattened compared to the 1990s, indicating diminishing per‑core speedups despite more transistors.
 - Researchers note that post‑2010 improvements in single‑thread performance are modest and largely from microarchitectural tweaks and turbo/power management, not big frequency jumps, underscoring the divergence between Moore’s Law (transistors) and user‑visible per‑thread speed.[
