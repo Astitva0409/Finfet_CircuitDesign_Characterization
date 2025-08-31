@@ -131,5 +131,10 @@ gain
 noise margin 
 transconductance 
 frequency 
-output resistanc
+output resistance
+
+To ensure unique results we add a dummy voltage source 
+```
+Vuniq in 0 DC 0.764
+```
 
