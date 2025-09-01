@@ -380,7 +380,11 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 
 <img width="1919" height="1139" alt="Image" src="https://github.com/user-attachments/assets/1ad9bf8d-f1b6-4697-892f-2574a7ff8164" />
 
-frequency 
+## Values for switching threshold , drain current , Power , tpd , Av and frequency derived from graphs 
+
+<img width="1618" height="949" alt="Image" src="https://github.com/user-attachments/assets/6b3e14a3-357b-491f-b232-db8b2f233176" />
+
+<img width="1625" height="418" alt="Image" src="https://github.com/user-attachments/assets/e9c71a93-221e-4fd4-8810-de08441eb18c" />
 
 
 | S.No | W/L (PMOS) | W/L (NMOS) | Vth (V) | Id (A) | P (W) | tpd (ps) | Av | f (Hz) |
