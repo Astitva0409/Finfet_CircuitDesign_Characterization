@@ -386,9 +386,12 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 
 <img width="1625" height="418" alt="Image" src="https://github.com/user-attachments/assets/e9c71a93-221e-4fd4-8810-de08441eb18c" />
 
+## Characterisation table for different W/L ratios 
+
 
 | S.No | W/L (PMOS) | W/L (NMOS) | Vth (V) | Id (A) | P (W) | tpd (ps) | Av | f (Hz) |
 |------|------------|------------|---------|--------|-------|----------|----|--------|
 | 1    |   15       |   14       |         |        |       |          |    |        |
 | 2    |   16       |   14       |         |        |       |          |    |        |
 | 3    |   17       |   17       |         |        |       |          |    |        |
+| 4    |   14       |   14       |         |        |       |          |    |        |
