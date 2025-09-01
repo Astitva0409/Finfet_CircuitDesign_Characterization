@@ -363,19 +363,25 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 .end
 
 ```
-##FOR 
+##FOR pmos W/L=14 and nmos W/L=14
 ## Voltage transfer characteristics (VTC):-Input voltage (VIN) versus Output voltage (VOUT) relationship
 
 <img width="1919" height="1143" alt="Image" src="https://github.com/user-attachments/assets/3d037628-1423-42a8-a50c-19e246d855e4" />
 
 ## Drain current
-power analysis 
-propogation delay
-gain 
-noise margin 
-transconductance 
+
+<img width="1918" height="1148" alt="Image" src="https://github.com/user-attachments/assets/5a730262-9717-4130-8d24-815c9f531f24" />
+
+## Output resistance ro
+
+<img width="1919" height="1138" alt="Image" src="https://github.com/user-attachments/assets/1e6b7615-0d8b-4ac0-b18c-c7eac3fd05d8" />
+
+## Transconductance gm  
+
+<img width="1919" height="1139" alt="Image" src="https://github.com/user-attachments/assets/1ad9bf8d-f1b6-4697-892f-2574a7ff8164" />
+
 frequency 
-output resistance
+
 
 | S.No | W/L (PMOS) | W/L (NMOS) | Vth (V) | Id (A) | P (W) | tpd (ps) | Av | f (Hz) |
 |------|------------|------------|---------|--------|-------|----------|----|--------|
