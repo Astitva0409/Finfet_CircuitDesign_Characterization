@@ -610,6 +610,31 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 **** end user architecture code
 .end
 ```
+##FOR pmos W/L=14 and nmos W/L=14
+## Voltage transfer characteristics (VTC):-Input voltage (VIN) versus Output voltage (VOUT) relationship
+
+<img width="1919" height="1139" alt="Image" src="https://github.com/user-attachments/assets/f0ac8c76-78bf-4074-96a2-739fd59b9aad" />
+
+## Drain current
+
+<img width="1919" height="1141" alt="14_14id" src="https://github.com/user-attachments/assets/9d477544-41fe-4cb7-b611-b180119845a0" />
+
+## Output resistance ro
+
+<img width="1919" height="1142" alt="Image" src="https://github.com/user-attachments/assets/0aeed82e-d424-4c7a-9a84-f25cf12d576b" />
+
+## Transconductance gm  
+
+<img width="1919" height="1138" alt="Image" src="https://github.com/user-attachments/assets/0f0dc5a0-b357-4cfa-bf1c-fca139380a93" />
+
+## Values for switching threshold , drain current , Power , tpd , Av and frequency derived from graphs 
+
+<img width="1919" height="1114" alt="14_14values1" src="https://github.com/user-attachments/assets/9132bb1a-f5f7-4da9-9615-5b735893b780" />
+
+<img width="1911" height="1139" alt="14_14values2" src="https://github.com/user-attachments/assets/f9da7a4e-52e6-4ecc-822e-293ecc73a5fb" />
+
+<img width="1919" height="1141" alt="14_14values3" src="https://github.com/user-attachments/assets/94f15a5d-d860-470e-a921-5403d77b1e71" />
+
 
 | S.No | W/L (PMOS) | W/L (NMOS) | Vth (V) | Id (A) | P (W) | tpd (ps) | Av | f (Hz) |
 |------|------------|------------|---------|--------|-------|----------|----|--------|
