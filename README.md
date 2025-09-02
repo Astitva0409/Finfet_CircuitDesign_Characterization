@@ -664,6 +664,36 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 
 <img width="1919" height="1142" alt="15_14values3" src="https://github.com/user-attachments/assets/5169d37c-2da6-493c-805b-f167b77d6cba" />
 
+## FOR pmos W/L=16 and nmos W/L=14
+## Voltage transfer characteristics (VTC):-Input voltage (VIN) versus Output voltage (VOUT) relationship
+
+<img width="1919" height="1144" alt="16_14vtc" src="https://github.com/user-attachments/assets/e1692dda-b8fa-48e8-9a27-dd4350602241" />
+
+
+
+## Drain current
+
+<img width="1919" height="1144" alt="16_14id" src="https://github.com/user-attachments/assets/17817ae2-ca33-43e0-a1c5-e7d8909e3d16" />
+
+
+## Output resistance ro
+
+<img width="1919" height="1143" alt="16_14rout" src="https://github.com/user-attachments/assets/36021e4e-ab8b-4158-a87c-ff25f907ef3c" />
+
+
+## Transconductance gm  
+
+<img width="1919" height="1139" alt="16_14gm" src="https://github.com/user-attachments/assets/c7dff37f-e84b-4276-a998-1dd4b678617c" />
+
+## Values for switching threshold , drain current , Power , tpd , Av and frequency derived from graphs 
+
+<img width="1919" height="1141" alt="16_14values1" src="https://github.com/user-attachments/assets/3652c337-2fe0-403a-80e0-f8d844af6774" />
+
+<img width="1919" height="1134" alt="16_14values2" src="https://github.com/user-attachments/assets/58843231-c7fd-4ffb-a1e7-8213a6a0f94d" />
+
+<img width="1919" height="1137" alt="16_14values3" src="https://github.com/user-attachments/assets/469306ba-05d2-478a-875c-ef789e48040a" />
+
+
 | S.No | W/L (PMOS) | W/L (NMOS) | Vth (V) | Id (A) | P (W) | tpd (ps) | Av | f (Hz) |
 |------|------------|------------|---------|--------|-------|----------|----|--------|
 | 1    |   15       |   14       |  0.3495591       | 233.288e-6     | 3.065422e-5      | 25.34424          | 6.427541   | 2.242659e+10       |
