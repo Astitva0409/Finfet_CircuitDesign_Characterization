@@ -610,6 +610,25 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 **** end user architecture code
 .end
 ```
+## For changing the W/L ratio
+
+The length remains constant at 7nm and we just change the no of fins at the top as 
+
+```
+Xpfet1 nfet_out nfet_in vdd vdd asap_7nm_pfet l=7e-009 nfin=14
+Xpfet1 nfet_out nfet_in vdd vdd asap_7nm_pfet l=7e-009 nfin=x
+Xnfet1 nfet_out nfet_in vdd vdd asap_7nm_pfet l=7e-009 nfin=x
+```
+and we change the no of fins in the model for pmos and nmos as 
+
+```
+.subckt asap_7nm_pfet S G D B l=7e-009 nfin=14
+	npmos_finfet S G D B BSIMCMG_osdi_P l=7e-009 nfin=14
+
+.subckt asap_7nm_pfet S G D B l=7e-009 nfin=x
+	npmos_finfet S G D B BSIMCMG_osdi_P l=7e-009 nfin=x
+```
+ 
 ## FOR pmos W/L=14 and nmos W/L=14
 ## Voltage transfer characteristics (VTC):-Input voltage (VIN) versus Output voltage (VOUT) relationship
 
