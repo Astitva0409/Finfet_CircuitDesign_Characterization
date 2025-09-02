@@ -629,6 +629,8 @@ and we change the no of fins in the model for pmos and nmos as
 	npmos_finfet S G D B BSIMCMG_osdi_P l=7e-009 nfin=x
 ```
  
+The change of ratio affects the tpf and tpr and tr and tf slightly 
+
 ## FOR pmos W/L=14 and nmos W/L=14
 ## Voltage transfer characteristics (VTC):-Input voltage (VIN) versus Output voltage (VOUT) relationship
 
