@@ -103,7 +103,7 @@ Electrical Properties:
 
 Temperature stability: Maintains stable operation across varying conditions
 
-## 7nm FinFET Inverter Performance Analysis
+## 7nm FinFET Nmos Performance Analysis
 In this segment, we will conduct a comprehensive electrical characterization of NMOS FinFET of the 7nm technology node. Our analysis will focus on extracting key performance metrics through two fundamental I-V characteristic curves that define transistor behavior.
 Characterization Objectives :- We will systematically analyze the following critical characteristics:
 
