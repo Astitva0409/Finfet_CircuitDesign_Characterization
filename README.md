@@ -610,7 +610,7 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 **** end user architecture code
 .end
 ```
-##FOR pmos W/L=14 and nmos W/L=14
+## FOR pmos W/L=14 and nmos W/L=14
 ## Voltage transfer characteristics (VTC):-Input voltage (VIN) versus Output voltage (VOUT) relationship
 
 <img width="1919" height="1139" alt="Image" src="https://github.com/user-attachments/assets/f0ac8c76-78bf-4074-96a2-739fd59b9aad" />
@@ -635,6 +635,34 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 
 <img width="1919" height="1141" alt="14_14values3" src="https://github.com/user-attachments/assets/94f15a5d-d860-470e-a921-5403d77b1e71" />
 
+
+## FOR pmos W/L=15 and nmos W/L=14
+## Voltage transfer characteristics (VTC):-Input voltage (VIN) versus Output voltage (VOUT) relationship
+
+<img width="1919" height="1140" alt="15_14vtc" src="https://github.com/user-attachments/assets/e5a10fd2-ba77-4e5a-a621-12dfed1c855d" />
+
+
+## Drain current
+
+<img width="1919" height="1140" alt="15_14id" src="https://github.com/user-attachments/assets/4354c3b3-4734-4e21-804d-85422af21f8b" />
+
+
+## Output resistance ro
+
+<img width="1917" height="1138" alt="15_14rout" src="https://github.com/user-attachments/assets/ed4cf141-c5ea-4aed-8d0b-f2b0ee716db8" />
+
+
+## Transconductance gm  
+
+<img width="1919" height="1144" alt="15_14gm" src="https://github.com/user-attachments/assets/e8a76661-e4d8-472b-b4be-b36c53d9ccc5" />
+
+## Values for switching threshold , drain current , Power , tpd , Av and frequency derived from graphs 
+
+<img width="1919" height="1139" alt="15_14values1" src="https://github.com/user-attachments/assets/d1afab8e-c09a-4e05-9624-f610151138f3" />
+
+<img width="1919" height="1144" alt="15_14values2" src="https://github.com/user-attachments/assets/58d4f703-f479-48a2-9495-6beb2ed492aa" />
+
+<img width="1919" height="1142" alt="15_14values3" src="https://github.com/user-attachments/assets/5169d37c-2da6-493c-805b-f167b77d6cba" />
 
 | S.No | W/L (PMOS) | W/L (NMOS) | Vth (V) | Id (A) | P (W) | tpd (ps) | Av | f (Hz) |
 |------|------------|------------|---------|--------|-------|----------|----|--------|
