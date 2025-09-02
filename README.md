@@ -722,3 +722,10 @@ The values derived from the graphs
 | 2    |   15       |   14       | 3.495e-01 | 233.285e-6 | 8.392e-09 | 27.55    | 6.427 | 1.959e+10 |
 | 3    |   16       |   14       | 3.540e-1  | 240.064    | 8.950e-09 | 27.55    | 6.428 | 1.959e+10 |
 
+## Bandgap Reference Design and Simulation using Xschem
+
+The below photo is taken as the reference circuit for designing the Bandgap reference.
+
+<img width="840" height="531" alt="Image" src="https://github.com/user-attachments/assets/14150a0b-fd74-442a-97b5-b697b246ed16" />
+
+### Steps to implement the circuit in Xschem
