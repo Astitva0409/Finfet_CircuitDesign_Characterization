@@ -730,3 +730,20 @@ The below photo is taken as the reference circuit for designing the Bandgap refe
 <img width="840" height="531" alt="Image" src="https://github.com/user-attachments/assets/14150a0b-fd74-442a-97b5-b697b246ed16" />
 
 ### Steps to implement the circuit in Xschem
+
+
+1. Open Xschem
+```
+Xschem
+```
+2. Press ``` ctrl + I ``` to ivoke the component list.
+3. Search pfet and nfet and select them indivually and drag them onto the board to create the circuit.
+4. To get multiple nfet of same properties, you can duplicate the nfet/pfet.
+5. Create the circuit
+6. Make connections as given in the schematic.
+7. Search for VDD, GND, source, resistance in the component list and connect them in their respective place.
+8. Add a simulation deck command window
+9. Add the commands to plot various desired graphs.
+
+
+<img width="1568" height="804" alt="Image" src="https://github.com/user-attachments/assets/02abf75f-1465-447d-bc97-f1522b609f5e" />
