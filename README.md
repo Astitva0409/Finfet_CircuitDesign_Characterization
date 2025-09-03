@@ -385,6 +385,14 @@ baseline values
 
 ## Characterisation table for different W/L ratios with unique source
 
+Now that we have analyzed the nfet, we can move on to the analysis of inverter circuit using the finfet. WE will be using offset in the pulse voltage to obtain unique results.
+
+The offset voltage value is derived from adding the ASCII values of my name (astitva = 97 + 115 + 116 + 105+116+118+97 = 764)
+To add the offset voltage, we will use the following command,
+```
+V1 nfet_in GND pulse(0.764 1.464 20p 10p 10p 20p 500p 1)
+```
+
 The spice deck used is 
 ```
 ** sch_path: /home/vsduser/Desktop/asap_7nm_Xschem/inverter_vtc.sch
@@ -747,5 +755,27 @@ Xschem
 
 ## Design using Xschem 
 
-We have added our own  resistance with the ascii value of 
+We have added our own  resistance in the startup branch by selecting a resistor of ASCII values of my name (astitva = 97 + 115 + 116 + 105+116+118+97 = 764)
+
 <img width="1568" height="804" alt="Image" src="https://github.com/user-attachments/assets/02abf75f-1465-447d-bc97-f1522b609f5e" />
+
+Code for dc analysis used to plot Vref and Vctat
+```
+name=s1 only_toplevel=false value="
+.dc temp -45 150 5
+.control
+pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
+run
+plot v(Vref) v(Vctat)
+plot v(Vref)-v(Vctat)
+plot v(Vctat)
+plot v(Vref)
+let temp_coeff = deriv(v(Vref))/1.24
+plot temp_coeff
+plot net9/30k Vref/33.33k Vctat/33.33k
+plot abs(v2#branch)
+.endc
+"
+```
+Code for transient analysis used to plot Vref and Vctat
+
