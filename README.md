@@ -745,5 +745,7 @@ Xschem
 8. Add a simulation deck command window
 9. Add the commands to plot various desired graphs.
 
+## Design using Xschem 
 
+We have added our own  resistance with the ascii value of 
 <img width="1568" height="804" alt="Image" src="https://github.com/user-attachments/assets/02abf75f-1465-447d-bc97-f1522b609f5e" />
