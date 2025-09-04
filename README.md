@@ -902,7 +902,7 @@ plot v(Vref)
 ************************************************************
 **)
 .control
-pre_osdi /home/hprcse/Documents/test/bsimcmg.osdi
+pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 .endc
 
 
@@ -975,10 +975,19 @@ pre_osdi /home/hprcse/Documents/test/bsimcmg.osdi
 ************************************************************
 **)
 .control
-pre_osdi /home/hprcse/Documents/test/bsimcmg.osdi
+pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 .endc
 
 **** end user architecture code
 .end
 ```
 
+
+
+| S.No | VDD (V) | Temp (°C) | Vref (V) | Line Reg. (mV/V) | Startup Time (ns)       |
+|------|---------|-----------|----------|------------------|-------------------------|
+| 1    | 0.8     | 27        | 0.325251 |      406.56      |       5.00e5            |
+| 2    | 0.9     | 27        | 0.374816 |      416.46      |       5.20e5            |
+| 3    | 1.0     | 27        | 0.428463 |      428.46      |       4.77e5            |
+| 4    | 1.0     | -40       | 0.299764 |      299.76      |       9.00e5            |
+| 5    | 1.0     | 125       | 0.682052 |      682.05      |       1.60e5            |
