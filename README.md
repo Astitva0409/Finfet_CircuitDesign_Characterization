@@ -724,11 +724,9 @@ The change of ratio affects the tpf and tpr and tr and tf slightly
 
 The values derived from the graphs 
 
-| S.No | W/L (PMOS)  | W/L (NMOS) | Vth (V)   | Id (A)     | P (W)     | tpd (ps) | Av    | f (Hz)    |
-|------|-------------|------------|-----------|------------|-----------|----------|-------|-----------|
-| 1    |   14/7=2    |   14/7=2   | 3.447e-01 | 226.071e-6 | 7.833e-09 | 27.55    | 6.428 | 1.959e+10 |
-| 2    |   15/7=2.14 |   14/7=2   | 3.495e-01 | 233.285e-6 | 8.392e-09 | 27.55    | 6.427 | 1.959e+10 |
-| 3    |   16/7=2.28 |   14/7=2   | 3.540e-1  | 240.064    | 8.950e-09 | 27.55    | 6.428 | 1.959e+10 |
+## Characterization table for inverter
+<img width="1046" height="138" alt="image" src="https://github.com/user-attachments/assets/d3554973-5caf-4620-9d62-d1e97e9769af" />
+
 
 
 ## Bandgap Reference Design and Simulation using Xschem
@@ -1052,14 +1050,12 @@ Transient analysis for 125°C
 <img width="1919" height="1141" alt="1vtrans125" src="https://github.com/user-attachments/assets/37b8c27d-cbac-4745-af0e-86053eea8623" />
 
 
-| S.No | VDD (V) | Temp (°C) | Vref (V) | Line Reg. (mV/V) | Startup Time (ns)       |
-|------|---------|-----------|----------|------------------|-------------------------|
-| 1    | 0.8     | 27        | 0.325251 |      406.56      |       5.00e5            |
-| 2    | 0.9     | 27        | 0.374816 |      416.46      |       5.20e5            |
-| 3    | 1.0     | 27        | 0.428463 |      428.46      |       4.77e5            |
-| 4    | 1.0     | -40       | 0.299764 |      299.76      |       9.00e5            |
-| 5    | 1.0     | 125       | 0.682052 |      682.05      |       1.60e5            |
 
+We have analyzed the startup time, refernce voltage and Line Regression and created a characterization table
+
+## Characterization table
+
+<img width="880" height="185" alt="image" src="https://github.com/user-attachments/assets/60c3e4fe-cf13-4375-ad20-ab60c53e12e8" />
 
 ## Conclusion
 
