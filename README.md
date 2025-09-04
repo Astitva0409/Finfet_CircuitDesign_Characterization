@@ -981,7 +981,26 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 **** end user architecture code
 .end
 ```
+## DC and transient  Graphs for 0.8V VDD 
 
+<img width="940" height="559" alt="image" src="https://github.com/user-attachments/assets/ce4bd9b9-b318-4cee-92e9-678bf33043af" />
+
+
+<img width="940" height="561" alt="image" src="https://github.com/user-attachments/assets/73e60720-06b3-4b2b-b728-70c3c07d0cc7" />
+
+
+<img width="940" height="564" alt="image" src="https://github.com/user-attachments/assets/8a82279a-e0cb-459d-a6e1-356db4a2991f" />
+
+
+<img width="940" height="564" alt="image" src="https://github.com/user-attachments/assets/45a25747-0dfb-4c9c-b182-c7804210d7b2" />
+
+
+<img width="940" height="561" alt="image" src="https://github.com/user-attachments/assets/7a53c514-4925-45b6-aa14-1d348939cf5f" />
+
+
+<img width="940" height="562" alt="image" src="https://github.com/user-attachments/assets/cac74586-5f9f-4dc2-9efc-6ddfa4ca4d3e" />
+
+<img width="1919" height="1103" alt="vrefat8trans" src="https://github.com/user-attachments/assets/c12ec6c0-d917-40c4-9bc2-d2f8ac57a237" />
 
 
 | S.No | VDD (V) | Temp (°C) | Vref (V) | Line Reg. (mV/V) | Startup Time (ns)       |
