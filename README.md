@@ -1000,7 +1000,56 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 
 <img width="940" height="562" alt="image" src="https://github.com/user-attachments/assets/cac74586-5f9f-4dc2-9efc-6ddfa4ca4d3e" />
 
+
 <img width="1919" height="1103" alt="vrefat8trans" src="https://github.com/user-attachments/assets/c12ec6c0-d917-40c4-9bc2-d2f8ac57a237" />
+
+## DC and transient Graphs for 0.9V VDD 
+
+<img width="940" height="597" alt="image" src="https://github.com/user-attachments/assets/d7aa4fcf-a972-4d6b-9066-9b5c1a25b4b3" />
+
+
+<img width="940" height="577" alt="image" src="https://github.com/user-attachments/assets/fcd5462d-b4a1-4007-92e8-89971f314846" />
+
+
+<img width="940" height="561" alt="image" src="https://github.com/user-attachments/assets/43b7b28f-16bb-4978-9c86-7053e9e87b50" />
+
+
+<img width="940" height="596" alt="image" src="https://github.com/user-attachments/assets/9cea2e83-ce47-4315-a40d-eda977517473" />
+
+
+<img width="940" height="593" alt="image" src="https://github.com/user-attachments/assets/627e5e24-4a7b-4a87-88a2-948076909583" />
+
+
+<img width="940" height="590" alt="image" src="https://github.com/user-attachments/assets/27887f52-5f1e-4b9c-8b46-18f7380a3abd" />
+
+
+<img width="1894" height="1143" alt="09at27startuptime" src="https://github.com/user-attachments/assets/879fbad6-62c9-4a64-bc56-13a2b9673e7b" />
+
+## DC and transient Graphs for 1V VDD 
+
+<img width="940" height="561" alt="image" src="https://github.com/user-attachments/assets/2fa9e43d-637d-4496-9200-fba4e8b1fc4c" />
+
+<img width="940" height="561" alt="image" src="https://github.com/user-attachments/assets/73d48214-6613-4b57-aaf4-be8e6671caf5" />
+
+<img width="940" height="565" alt="image" src="https://github.com/user-attachments/assets/c6632095-0144-4642-b933-f15ade21da50" />
+
+<img width="940" height="560" alt="image" src="https://github.com/user-attachments/assets/42df18a9-98c9-404f-a9e3-e9da043838e1" />
+
+<img width="940" height="565" alt="image" src="https://github.com/user-attachments/assets/75bc97ef-fa8b-4d39-a95a-6b01abe67dcc" />
+
+<img width="940" height="559" alt="image" src="https://github.com/user-attachments/assets/fe61fdd5-d12a-48f1-b732-a4d575690270" />
+
+Transient analysis for 27°C
+
+<img width="1918" height="1147" alt="1vtrans27" src="https://github.com/user-attachments/assets/af42a47b-f8ed-4b88-a791-ef02bf391dcb" />
+
+Transient analysis for -40°C
+
+<img width="1919" height="1144" alt="1vtrans40" src="https://github.com/user-attachments/assets/ee37e1cd-4111-4faa-9270-b28d8d2d2917" />
+
+Transient analysis for 125°C
+
+<img width="1919" height="1141" alt="1vtrans125" src="https://github.com/user-attachments/assets/37b8c27d-cbac-4745-af0e-86053eea8623" />
 
 
 | S.No | VDD (V) | Temp (°C) | Vref (V) | Line Reg. (mV/V) | Startup Time (ns)       |
