@@ -991,3 +991,18 @@ pre_osdi /home/vsduser/Desktop/asap_7nm_Xschem/bsimcmg.osdi
 | 3    | 1.0     | 27        | 0.428463 |      428.46      |       4.77e5            |
 | 4    | 1.0     | -40       | 0.299764 |      299.76      |       9.00e5            |
 | 5    | 1.0     | 125       | 0.682052 |      682.05      |       1.60e5            |
+
+
+## Conclusion
+
+In this workshop, we learned how to analyze the performance parameters of 7nm Fin_FET. We used ASAP 7nm Fin_FET pdk for the simulations. We also learnt how to design a Bandgap Reference Circuit using the 7nm pfet and nfet in Xschem. We learnt how to generate a spice file for a circuit and how to analyze the spice file using ngspice. We also analyzed the startup time, reference voltage of the BAndgap REference Circuit.
+
+# Acknowledgements and References
+
+Kunal Ghosh, VSD Corp Pvt. Ltd. (Co-Founder) [LinkedIn](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/)
+
+Soundarya Madhuri Royyuru, [GitHub](https://github.com/RSMadhuri66)
+
+GitHub, [avsdbgr_7nm](https://github.com/RSMadhuri66/avsdbgr_7nm?tab=readme-ov-file)
+
+GitHub, [Bandgap-Reference-Circuit-with-SCMB-with-ASAP-7nm-PDK-](https://github.com/RSMadhuri66/Bandgap-Reference-Circuit-with-SCMB-with-ASAP-7nm-PDK-)
